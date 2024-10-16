@@ -1,0 +1,6 @@
+Docs Website: https://uicamp.smartinnovates.net/docs/nuxtjs/
+
+
+Author: UiCamp
+Author URI: https://themeforest.net/user/uicamp
+Support: https://themeforest.net/user/uicamp#contact

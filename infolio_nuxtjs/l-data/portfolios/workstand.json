@@ -1,0 +1,56 @@
+[
+  {
+    "img": "/light/assets/imgs/works/stand/1.jpg",
+    "title": "Aevoe",
+    "subTitle": "Digital",
+    "link": "/light/project1"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/2.jpg",
+    "title": "Digital Design",
+    "subTitle": "Branding Digital",
+    "link": "/light/project2"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/3.jpg",
+    "title": "Aevoe",
+    "subTitle": "Branding marketing",
+    "link": "/light/project3"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/4.jpg",
+    "title": "Aevoe",
+    "subTitle": "Branding design",
+    "link": "/light/project4"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/5.jpg",
+    "title": "Aevoe",
+    "subTitle": "art marketing",
+    "link": "/light/project5"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/6.jpg",
+    "title": "Digital Design",
+    "subTitle": "art",
+    "link": "/light/project6"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/7.jpg",
+    "title": "Aevoe",
+    "subTitle": "marketing",
+    "link": "/light/project1"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/8.jpg",
+    "title": "Aevoe",
+    "subTitle": "Branding design",
+    "link": "/light/project2"
+  },
+  {
+    "img": "/light/assets/imgs/works/stand/9.jpg",
+    "title": "Aevoe",
+    "subTitle": "marketing",
+    "link": "/light/project4"
+  }
+]

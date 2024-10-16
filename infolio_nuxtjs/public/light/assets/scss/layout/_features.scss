@@ -1,0 +1,85 @@
+
+/* Features
+-----------------------------------------------------------------*/
+
+.accordion{
+
+    .title{
+        padding: 15px;
+        border: 1px solid rgba(0,0,0,.1);
+        border-radius: 15px;
+        cursor: pointer;
+        position: relative;
+        margin-bottom: 10px;
+
+        .ico{
+            position: absolute;
+            bottom: 20px;
+            right: 15px;
+        }
+    }
+
+    .accordion-info{
+        display: none;
+        padding: 30px;
+        background: rgba(255,255,255,.02);
+        border-radius: 15px;
+    }
+
+    .active{
+
+        .title{
+
+            .ico{
+                transform: rotate(45deg);
+            }
+        }
+
+        .accordion-info{
+            display: block;
+        }
+    }
+}
+
+.list-arrow{
+
+    li{
+
+        .icon{
+            width: 15px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.dot-list{
+
+    li{
+        position: relative;
+        padding-left: 15px;
+
+        &:before{
+            content: '';
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            background: #1a1a1a;
+        }
+    }
+}
+
+.text-dark{
+
+    .dot-list{
+
+        li{
+
+            &:before{
+                background: #1a1a1a;
+            }
+        }
+    }
+}

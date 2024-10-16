@@ -1,0 +1,111 @@
+
+/* Footer
+-----------------------------------------------------------------*/
+
+footer{
+
+    .subscribe-minimal{
+
+        .form-group{
+            position: relative;
+        }
+
+        input{
+            color: #fff;
+            background: transparent;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,.1);
+            width: 100%;
+            padding: 15px 30px;
+
+            &:focus{
+                border-color: rgba(255,255,255,.5);
+            }
+        }
+
+        button{
+            color: #fff;
+            padding: 15px 0;
+            position: absolute;
+            top: 5px;
+            right: 30px;
+            background: transparent;
+            border: 0;
+        }
+    }
+}
+
+footer{
+
+    &.clean-footer{
+
+        &.crev{
+            position: relative;
+
+            .bord-thin-top,
+            .bord-thin-left,
+            .bord-thin-right,
+            .bord-thin-bottom{
+                border-color: rgba(255,255,255,.1);
+            }
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 40px;
+                right: 0;
+                bottom: 40px;
+                background: #1a1a1a;
+                z-index: 2;
+            }
+
+            &:before{
+                background: linear-gradient(180deg, $sub-bg, rgba(29,29,29,.5));
+            }
+        }
+    }
+}
+
+.modern-footer{
+    background: #1a1a1a;
+    color: #fff;
+
+    .sub-bg{
+        background: #1d1d1d !important;
+    }
+
+    &.sub-bg{
+        background: #1d1d1d !important;
+        color: #fff;
+
+        .main-bg{
+            background: #1a1a1a !important;
+        }
+    }
+
+    .bord-thin-top,
+    .bord-thin-left,
+    .bord-thin-right,
+    .bord-thin-bottom{
+        border-color: rgba(255,255,255,.1);
+    }
+
+    .butn.butn-bord-thin{
+        border-color: rgba(255,255,255,.1);
+        color: #fff;
+    }
+
+    .bord-left{
+        position: relative;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: -80px;
+            bottom: -80px;
+            left: -80px;
+            border-left: 1px solid rgba(255,255,255,.1);
+        }
+    }
+}

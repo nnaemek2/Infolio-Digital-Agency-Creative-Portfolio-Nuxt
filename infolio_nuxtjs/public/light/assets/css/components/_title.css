@@ -1,0 +1,63 @@
+/* Titles
+-----------------------------------------------------------------*/
+.sec-head .stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  font-weight: 800;
+  font-size: 55px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.sec-head .bord {
+  position: relative;
+  padding-right: 30px;
+}
+
+.sec-head .bord:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sub-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.numb-font {
+  font-family: 'Allerta Stencil', sans-serif;
+}
+
+.main-font {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.sec-bottom {
+  position: relative;
+}
+
+.sec-bottom:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.sec-bottom .d-flex {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 30px;
+  border-radius: 30px;
+  position: relative;
+  z-index: 3;
+}

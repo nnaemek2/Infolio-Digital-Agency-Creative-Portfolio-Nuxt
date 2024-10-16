@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Geekfolio
+    Theme URI: http://
+    Description: Creative Agency & Portfolio
+    Author: UiCamp
+    Author URI: http://themeforest.net/user/UiCamp
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+// utility
+@import 'utility/animation.scss';
+@import 'utility/mixin.scss';
+@import 'utility/theme-dark.scss';
+@import 'utility/variables.scss';
+
+// components
+@import 'components/typography.scss';
+@import 'components/buttons.scss';
+@import 'components/cursor.scss';
+@import 'components/extra.scss';
+@import 'components/helper.scss';
+@import 'components/preloader.scss';
+@import 'components/overlay.scss';
+@import 'components/menu.scss';
+@import 'components/modal.scss';
+@import 'components/title.scss';
+
+// layout
+@import 'layout/about.scss';
+@import 'layout/awards.scss';
+@import 'layout/blog.scss';
+@import 'layout/brand.scss';
+@import 'layout/career.scss';
+@import 'layout/clients.scss';
+@import 'layout/contact.scss';
+@import 'layout/counter.scss';
+@import 'layout/features.scss';
+@import 'layout/footer.scss';
+@import 'layout/header.scss';
+@import 'layout/hero.scss';
+@import 'layout/interactive.scss';
+@import 'layout/portfolio.scss';
+@import 'layout/price.scss';
+@import 'layout/process.scss';
+@import 'layout/services.scss';
+@import 'layout/slider.scss';
+@import 'layout/team.scss';
+@import 'layout/testimonials.scss';
+@import 'layout/video.scss';
+@import 'layout/shop.scss';
+
+// responsive
+@import 'utility/responsive.scss';

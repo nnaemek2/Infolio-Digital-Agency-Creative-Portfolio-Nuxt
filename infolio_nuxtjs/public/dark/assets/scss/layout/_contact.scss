@@ -1,0 +1,211 @@
+
+/* Contact
+-----------------------------------------------------------------*/
+
+.contact{
+
+    input,
+    textarea{
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid rgba(255,255,255,.2);
+        background: transparent;
+        color: #fff;
+        padding: 15px 0;
+        transition: all .4s;
+
+        &:focus{
+            border-color: #fff;
+        }
+    }
+
+    textarea{
+        min-height: 180px;
+    }
+
+    .info-box{
+        padding: 80px 40px;
+        border: 1px solid rgba(255,255,255,.1);
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(../imgs/map.png);
+            background-size: cover;
+            opacity: .3;
+            z-index: -1;
+        }
+    }
+
+    .form2{
+
+        input,
+        textarea{
+            padding: 15px 30px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 30px;
+        }
+    }
+}
+
+.contact-modern{
+
+    .social-box{
+        height: 100%;
+        overflow: hidden;
+        
+        .item{
+            padding: 30px;
+            border: 1px solid rgba(255,255,255,.2);
+            width: calc(50% - 20px);
+            height: calc(50% - 10px);
+            display: inline-block;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            border-radius: 15px;
+            float: left;
+            position: relative;
+            transition: all .4s;
+
+            &:hover{
+
+                .icon{
+                    background: rgba(255, 255, 255, 0.08);
+                }
+            }
+
+            &:nth-of-type(3),
+            &:nth-of-type(4){
+                margin-bottom: 0;
+            }
+
+            .icon{
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                text-align: center;
+                font-size: 20px;
+                border: 1px solid rgba(255,255,255,.1);
+                border-radius: 50%;
+                transition: all .4s;
+            }
+
+            h6{
+                position: absolute;
+                bottom: 30px;
+                left: 30px;
+
+                span{
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .contact-form{
+
+        input,
+        textarea{
+            color: #fff;
+            width: 100%;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 5px;
+            background: transparent;
+        }
+    }
+
+    &.box-form{
+        padding: 40px;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 15px;
+    }
+}
+
+.contact-crev{
+    position: relative;
+
+    &:before{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        background-image: url(../imgs/patterns/lines1.png);
+        background-size: cover;
+        background-position: center top;
+        opacity: .12;
+        z-index: -1;
+    }
+
+    input,
+    textarea{
+        width: 100%;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 10px;
+        background: transparent;
+        color: #fff;
+        padding: 15px;
+        transition: all .4s;
+
+        &:focus{
+            border-color: #fff;
+        }
+    }
+
+    textarea{
+        min-height: 180px;
+    }
+}
+
+.social-icon-circle{
+
+    a{
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.02);
+        transition: all .4s;
+
+        &:hover{
+            color: $main_color;
+        }
+    }
+}
+
+.google-map{
+    height: 450px;
+    width: 100%;
+    position: relative;
+    filter: grayscale(100%);
+
+    iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.call-box-action{
+
+    .thbox{
+        border: 2px solid rgba(255, 255, 255, 0.08);
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+}

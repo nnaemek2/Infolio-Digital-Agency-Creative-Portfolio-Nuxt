@@ -1,0 +1,21 @@
+
+/* Process
+-----------------------------------------------------------------*/
+
+.process{
+
+    .item{
+        border-right: 1px solid rgba(255,255,255,.08);
+
+        &:last-of-type{
+            border: 0;
+        }
+
+        &:hover{
+
+            .to-in{
+                margin-left: 0;
+            }
+        }
+    }
+}

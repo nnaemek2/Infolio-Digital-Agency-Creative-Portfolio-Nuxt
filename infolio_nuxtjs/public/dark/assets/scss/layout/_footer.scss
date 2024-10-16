@@ -1,0 +1,77 @@
+
+/* Footer
+-----------------------------------------------------------------*/
+
+footer{
+
+    .subscribe-minimal{
+
+        .form-group{
+            position: relative;
+        }
+
+        input{
+            color: #fff;
+            background: transparent;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,.1);
+            width: 100%;
+            padding: 15px 30px;
+
+            &:focus{
+                border-color: rgba(255,255,255,.5);
+            }
+        }
+
+        button{
+            color: #fff;
+            padding: 15px 0;
+            position: absolute;
+            top: 5px;
+            right: 30px;
+            background: transparent;
+            border: 0;
+        }
+    }
+}
+
+footer{
+
+    &.clean-footer{
+
+        &.crev{
+            position: relative;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 40px;
+                right: 0;
+                bottom: 40px;
+                background: $main_bg;
+                z-index: 2;
+            }
+
+            &:before{
+                background: linear-gradient(180deg, $sub-bg, rgba(29,29,29,.7));
+            }
+        }
+    }
+}
+
+.modern-footer{
+
+    .bord-left{
+        position: relative;
+
+        &:after{
+            content: '';
+            position: absolute;
+            top: -80px;
+            bottom: -80px;
+            left: -80px;
+            border-left: 1px solid rgba(255,255,255,.1);
+        }
+    }
+}

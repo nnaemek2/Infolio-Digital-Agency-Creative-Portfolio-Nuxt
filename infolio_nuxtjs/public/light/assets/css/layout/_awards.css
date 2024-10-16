@@ -1,0 +1,56 @@
+/* Awards
+-----------------------------------------------------------------*/
+.awards .item-line {
+  padding: 25px 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  z-index: 3;
+}
+
+.awards .item-line > div {
+  padding: 0;
+}
+
+.awards .item-line > div:last-of-type {
+  text-align: right;
+}
+
+.awards .item-line:hover {
+  color: #0c0c0c;
+}
+
+.awards .item-line:hover:after {
+  height: 100%;
+}
+
+.awards .item-line:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background: #fff;
+  -webkit-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  z-index: -1;
+}
+
+.awards .item-line .project-date span {
+  font-size: 14px;
+  opacity: .7;
+  margin-left: 15px;
+}
+
+.awards .item-title {
+  padding: 0 15px 25px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.awards .item-title > div {
+  padding: 0;
+}

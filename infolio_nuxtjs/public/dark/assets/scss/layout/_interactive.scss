@@ -1,0 +1,247 @@
+
+/* Interactive
+-----------------------------------------------------------------*/
+
+.interactive-inline{
+    min-height: 100vh;
+    padding: 380px 0 60px;
+
+    .item{
+        position: relative;
+        display: inline-block;
+        margin-right: 40px;
+        padding-bottom: 60px;
+
+        a{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        span{
+            font-size: 13px;
+            opacity: .8;
+            margin-right: 5px;
+        }
+
+        h4{
+            font-size: 35px;
+            font-weight: 700;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            transition: all .4s;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            margin-left: 10px;
+        }
+
+        &:hover{
+
+            h4{
+                color: #fff;
+                -webkit-text-stroke-color: transparent;
+            }
+        }
+
+        .hover-reveal{
+            position: absolute !important;
+            top: -10px !important;
+            left: 50% !important;
+            transform: translateX(-50%) translateY(-100%);
+            width: 380px;
+            height: 280px;
+        }
+    }
+}
+
+.interactive-center{
+    min-height: 100vh;
+    padding: 120px 0 80px;
+
+    .item{
+
+        a{
+            padding: 50px 0;
+
+            &:hover{
+
+                h4{
+                    color: #fff;
+                    -webkit-text-stroke-color: transparent;
+                }
+            }
+        }
+
+        .cont{
+            position: relative;
+            z-index: 3;
+        }
+
+        h4{
+            font-size: 70px;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 1px #fff;
+            transition: all .4s;
+        }
+
+        p{
+            font-weight: 400;
+            margin-top: 15px;
+        }
+
+        .hover-reveal{
+            z-index: -1;
+            top: 15vh !important;
+            left: 20vw !important;
+            width: 60vw;
+            height: 70vh;
+            min-width: 600px;
+            min-height: 450px;
+        }
+    }
+}
+
+.inter-links-center{
+	position: relative;
+	height: 100vh;
+	overflow: auto;
+
+	&::-webkit-scrollbar {
+		width: 0;
+	}
+
+	&.horizontal{
+
+		.links-text{
+
+			ul{
+				margin-left: -40px !important;
+				margin-right: -40px !important;
+			}
+
+			li{
+				display: inline-block;
+				padding: 40px;
+
+				.sub-title{
+					margin-bottom: 10px;
+				}
+
+				h2{
+					font-weight: 700;
+					font-size: 30px;
+	
+					a{
+	
+						.tag{
+							display: block;
+							font-weight: 400;
+						}
+					}
+	
+					.num{
+						font-size: 14px;
+						font-weight: 600;
+						opacity: .7;
+						margin-right: 15px;
+					}
+				}
+			}
+		}
+	}
+
+    &.vertical{
+        
+        .links-text{
+            transform: rotate(180deg);
+            writing-mode: vertical-rl;
+            position: relative;
+            z-index: 66;
+
+            li{
+                padding: 0 20px; 
+            }
+        }
+    }
+
+	.links-text{
+
+		li{
+			padding: 40px 0;
+			position: relative;
+			z-index: 9;
+
+            &:hover{
+
+                .text{
+                    color: #fff;
+                    -webkit-text-stroke-color: transparent;
+                }
+            }
+			
+			.text{
+				transition: all .4s;
+                color: transparent;
+				-webkit-text-stroke: 1px #fff;
+			}
+			
+			h2{
+				font-weight: 700;
+
+				a{
+
+					.tag{
+						font-weight: 400;
+                        opacity: .5;
+					}
+				}
+
+				.num{
+                    display: block;
+					font-size: 14px;
+					font-weight: 600;
+					opacity: .7;
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+
+	.links-img{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100vw;
+		height: 100vh;
+		pointer-events: none;
+		overflow: hidden;
+
+		.img{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			transform: scale(1.04,1.04);
+			transition: all .5s;
+
+			&.current{
+				transform: scale(1);
+				opacity: 1;
+			}
+
+			img{
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+}

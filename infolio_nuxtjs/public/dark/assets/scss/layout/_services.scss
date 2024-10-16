@@ -1,0 +1,402 @@
+
+/* Services
+-----------------------------------------------------------------*/
+
+.serv-img{
+
+    .img{
+        position: relative;
+
+        .circle-button{
+            position: absolute;
+            bottom: -1px;
+            right: -50px;
+            border-radius: 30px 0 0 0;
+
+            .shap-left-bottom{
+                position: absolute;
+                bottom: -1px;
+                left: -2.1rem;
+                transform: rotate(180deg);
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+
+            .shap-right-top{
+                position: absolute;
+                top: -2.1rem;
+                right: 50px;
+                transform: rotate(180deg);
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+        }
+    }
+}
+
+.services{
+
+    .item-box{
+        padding: 60px 40px;
+        border: 1px solid rgba(255,255,255,.12);
+
+        .icon{
+            width: 70px;
+        }
+
+        .icon-box{
+            display: inline-block;
+            box-shadow: inset -2px -2px 2px rgba(65, 65, 65, 0.14), inset 2px 2px 5px rgba(7, 7, 7, 0.38);
+            border-radius: 15px;
+            width: 80px;
+            height: 80px;
+            padding: 15px;
+
+            img{
+                opacity: .7;
+            }
+        }
+
+        &.bg{
+            background: rgba(255,255,255,.01);
+        }
+    }
+
+    .item-box2{
+        padding: 40px;
+        border-radius: 20px;
+        background: $sub_bg;
+        position: relative;
+        overflow: hidden;
+
+        &:hover{
+
+            .rmore{
+                opacity: 1;
+                top: 0px;
+                right: 0px;
+
+                .arrow{
+
+                    img{
+                        transform: none;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        .icon{
+            width: 70px;
+            opacity: .5;
+        }
+
+        .rmore{
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background: $main_bg;
+            padding: 10px;
+            border-radius: 0 0 0 30px;
+            transition: all .4s;
+            opacity: 0;
+
+            &:hover{
+
+                .arrow{
+                    background: $main_color;
+                }
+            }
+
+            .arrow{
+                width: 70px;
+                height: 70px;
+                line-height: 70px;
+                border: 1px solid rgba(255,255,255,.08);
+                border-radius: 50%;
+                text-align: center;
+                transition: all .4s;
+
+                img{
+                    opacity: 0;
+                    transform: translateX(-20px) translateY(20px);
+                    transition-delay: .8s;
+                    transition: all .4s;
+                }
+            }
+
+            .shap-left-top{
+                position: absolute;
+                top: 0;
+                left: -2.1rem;
+                transform: rotate(90deg);
+                line-height: 1;
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+    
+            .shap-right-bottom{
+                position: absolute;
+                bottom: -2.1rem;
+                right: 0;
+                transform: rotate(90deg);
+                line-height: 1;
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+        }
+    }
+
+    .serv-swiper{
+        clip-path: inset(-100vw -100vw -100vw 0);
+    }
+
+    .swiper-container{
+        overflow: visible;
+    }
+}
+
+.services-tab{
+
+    .serv-tab-cont{
+
+        .tab-content{
+            display: none;
+
+            &.current{
+                display: block;
+            }
+        }
+
+        .item{
+            position: relative;
+
+            .img{
+                width: 70%;
+                height: 540px;
+            }
+
+            .cont{
+                position: absolute;
+                bottom: -80px;
+                left: 20%;
+                right: 0;
+                padding: 80px 40px;
+            }
+        }
+    }
+
+    .serv-tab-link{
+
+        .item-link{
+            cursor: pointer;
+
+            span{
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .half-img-left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: left top;
+        background-size: 50%;
+        pointer-events: none;
+    }
+
+    &.revers{
+
+        .serv-tab-cont{
+
+            .item{
+                position: relative;
+    
+                .img{
+                    width: 70%;
+                    margin-left: 30%;
+                    height: 540px;
+    
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center center;
+                    }
+                }
+    
+                .cont{
+                    position: absolute;
+                    bottom: -2px;
+                    right: 30%;
+                    left: auto;
+                    padding: 60px 40px;
+
+                    .bg-pattern{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-size: cover;
+                        background-position: bottom;
+                        pointer-events: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.services-boxs{
+
+    .items{
+        position: relative;
+        bottom: -30px;
+        
+        &:nth-of-type(even){
+            top: -30px;
+        }
+    }
+
+    .item-box{
+        padding: 60px 40px;
+        border: 1px solid rgba(255,255,255,.1);
+
+        .icon{
+            width: 70px;
+            height: 70px;
+        }
+
+        &.bg{
+            background: rgba(255,255,255,.01);
+        }
+
+        h5,
+        p{
+            transform: translateY(50px);
+            transition: all .5s;
+        }
+
+        p{
+            opacity: 0;
+        }
+
+        &:hover{
+
+            h5,
+            p{
+                transform: translateY(0px);
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.services-crev{
+
+    .item-box{
+        padding: 40px 60px;
+        border: 1px solid rgba(255,255,255,.08);
+        background: rgba(255,255,255,.01);
+        position: relative;
+
+        .num{
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            opacity: .7;
+        }
+
+        .icon{
+            width: 80px;
+        }
+    }
+}
+
+.services-dots{
+
+    .item{
+        padding-top: 30px;
+
+        h4{
+            font-size: 120px;
+            font-weight: 800;
+            line-height: .8;
+            -webkit-background-clip: text; 
+            -webkit-text-fill-color: transparent;
+            background-size: cover;
+            width: max-content;
+            position: relative;
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: -30px;
+                left: 30px;
+                bottom: -20px;
+                width: 150px;
+                background-image: url(../imgs/patterns/dots.png);
+                background-repeat: repeat;
+                z-index: -1;
+                opacity: .1;
+            }
+        }
+    }
+}
+
+.services-details{
+
+    .serv-imgs{
+
+        .img{
+            height: 400px;
+        }
+    }
+}
+
+
+// .services{
+
+//     .item-box{
+//         padding: 60px 40px;
+//         border: 1px solid transparent;
+//         border-radius: 20px;
+//         background: linear-gradient(135deg, #232425 0%, #2f3132 49%, #2c2d2d 100%), linear-gradient(139deg, #434B54 1%, #2A2C2F 45%, #191B1E 75%);
+//         background-clip: padding-box, border-box;
+//         background-origin: padding-box, border-box;
+
+//         .icon{
+//             display: inline-block;
+//             background: linear-gradient(136deg, #212224 7%, #323539 50%, #535456 93%) 0% 0%/200% 200%;
+//             box-shadow: inset -2px -2px 2px rgba(60, 60, 60, 0.14), inset 2px 2px 5px rgba(0, 0, 0, 0.38);
+//             border-radius: 15px;
+//             width: 80px;
+//             height: 80px;
+//             padding: 15px;
+//         }
+//     }
+
+//     .serv-swiper{
+//         clip-path: inset(-100vw -100vw -100vw 0);
+//     }
+
+//     .swiper-container{
+//         overflow: visible;
+//     }
+// }

@@ -1,0 +1,237 @@
+
+/* About Intro
+-----------------------------------------------------------------*/
+
+.intro{
+
+    .marq-brand{
+
+        .item{
+            width: 200px;
+        }
+    }
+}
+
+.half-block{
+    padding: 15px;
+
+    .colmn{
+        padding: 40px;
+    }
+}
+
+.about-crev{
+
+    .left-block{
+        position: relative;
+        z-index: 3;
+
+        .info{
+            padding: 0 60px;
+            margin-top: -30px;
+        }
+
+        .mz-shap{
+            position: absolute;
+            top: -100px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+}
+
+.about{
+
+    .img-vid{
+        position: relative;
+        border-radius: 30px 30px 30px 0;
+        overflow: hidden;
+
+        .curv-butn{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 100px;
+            line-height: 80px;
+            text-align: center;
+            border-radius: 0 30px 0 0;
+            
+            .vid{
+                position: absolute;
+                top: 10px;
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+                border-radius: 50%;
+                background: rgba(255,255,255,.04);
+            }
+
+            .shap-left-top{
+                position: absolute;
+                top: -2.05rem;
+                left: -1px;
+                transform: rotate(270deg);
+                line-height: 1;
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+    
+            .shap-right-bottom{
+                position: absolute;
+                bottom: -1px;
+                right: -2.1rem;
+                transform: rotate(270deg);
+                line-height: 1;
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+        }
+    }
+}
+
+.intro-card{
+
+    h2{
+        font-size: 100px;
+        font-weight: 700;
+        line-height: .8;
+        position: relative;
+        z-index: 4;
+
+        .botm{
+            font-size: 70px;
+            font-weight: 400;
+            padding-left: 30px;
+            opacity: .4;
+            position: relative;
+            z-index: -1;
+        }
+    }
+}
+
+.vcard-bg{
+    background-position: center;
+    background-color: $main_bg;
+}
+
+.resume{
+
+    .resume-clumn{
+        border-left: 1px solid rgba(0,0,0,.1);
+    }
+
+    .items{
+        padding-left: 50px;
+        position: relative;
+
+        &:before{
+            content: '';
+            position: absolute;
+            left: -5px;
+            top: 10px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #ccc;
+            z-index: 2;
+        }
+
+        h6{
+           display: inline-block;
+           color: #777;
+           padding: 7px 20px;
+           border: 1px solid rgba(0,0,0,.1);
+           border-radius: 30px;
+           margin-bottom: 15px;
+        }
+
+        h5{
+            font-size: 22px;
+        }
+
+        span{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 12px;
+        }
+    }
+}
+
+.page-intro{
+
+    .img{
+        height: 520px;
+
+        &.to-up{
+            margin-top: -100px;
+        }
+    }
+}
+
+.page-intro-cerv{
+
+    .cont{
+        padding: 60px;
+        height: 100%;
+    }
+
+    .img{
+        padding: 15px;
+        height: 100%;
+    }
+
+    .bg-dots{
+        position: absolute;
+        bottom: -250px;
+        left: 60px;
+        width: 140px;
+        height: 250px;
+        background-repeat: repeat;
+        background-size: 6px;
+        opacity: .4;
+    }
+}
+
+.page-intro-modern{
+    position: relative;
+
+    &:after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60%;
+        background: $sub_bg2;
+        z-index: -1;
+    }
+
+    .img1{
+        height: 380px;
+        width: 100%;
+    }
+
+    .img2{
+        height: 650px;
+        width: 100%;
+    }
+
+    .img3{
+        height: 220px;
+        width: 80%;
+        margin-left: 20%;
+    }
+
+    .img4{
+        height: 280px;
+    }
+}
