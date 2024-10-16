@@ -1,0 +1,76 @@
+
+
+/* Preloader
+-----------------------------------------------------------------*/
+
+body{
+    
+    &.loaded{
+        overflow: hidden !important;
+        height: 100% !important;
+    }
+}
+
+.loader-wrap {
+  position: fixed;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  z-index: 99999999999999;
+}
+.loader-wrap svg {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 110vh;
+  fill: $sub_bg;
+}
+
+.loader-wrap .loader-wrap-heading .load-text {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    z-index: 20;
+}
+
+.load-text span {
+	animation: loading 1s infinite alternate;
+}
+.load-text span:nth-child(1) {
+	animation-delay: 0s;
+}
+.load-text span:nth-child(2) {
+	animation-delay: 0.1s;
+}
+.load-text span:nth-child(3) {
+	animation-delay: 0.2s;
+}
+.load-text span:nth-child(4) {
+	animation-delay: 0.3s;
+}
+.load-text span:nth-child(5) {
+	animation-delay: 0.4s;
+}
+.load-text span:nth-child(6) {
+	animation-delay: 0.5s;
+}
+.load-text span:nth-child(7) {
+	animation-delay: 0.6s;
+}
+  
+@keyframes loading {
+	0% {
+	  opacity: 1;
+	}
+	100% {
+	  opacity: 0;
+	}
+}

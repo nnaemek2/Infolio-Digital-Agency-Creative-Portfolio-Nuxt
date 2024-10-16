@@ -1,0 +1,53 @@
+
+/* Pricing
+-----------------------------------------------------------------*/
+
+.price-hr{
+
+    .item{
+        padding: 50px 30px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 20px;
+
+        .butn{
+            padding: 7px 25px;
+        }
+
+        &.text-dark{
+
+            .butn{
+                border-color: $sub_bg;
+
+                &:hover{
+                    border-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.pricing{
+
+    .item{
+        padding: 50px 30px;
+        border: 1px solid rgba(255,255,255,.1);
+        border-radius: 5px;
+
+        li{
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+
+            &:after{
+                content: '';
+                width: 5px;
+                height: 5px;
+                background: #fff;
+                border-radius: 50%;
+                position: absolute;
+                left: 0;
+                top: calc(50% - 5px);
+            }
+        }
+    }
+}

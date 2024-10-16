@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/imgs/works/full/1.jpg",
+    "category": "Digital Design",
+    "title": "Retouch Photo",
+    "year": "2023",
+    "link": "/project1"
+  },
+  {
+    "id": 2,
+    "img": "/assets/imgs/works/full/2.jpg",
+    "category": "Branding",
+    "title": "Earthmade Aroma",
+    "year": "2023",
+    "link": "/project2"
+  },
+  {
+    "id": 3,
+    "img": "/assets/imgs/works/full/3.jpg",
+    "category": "Branding",
+    "title": "Bank Rebranding",
+    "year": "2023",
+    "link": "/project3"
+  },
+  {
+    "id": 4,
+    "img": "/assets/imgs/works/full/4.jpg",
+    "category": "Product Design",
+    "title": "The joy of music",
+    "year": "2023",
+    "link": "/project4"
+  },
+  {
+    "id": 5,
+    "img": "/assets/imgs/works/full/5.jpg",
+    "category": "Digital Art",
+    "title": "Blue Adobe MAX",
+    "year": "2023",
+    "link": "/project1"
+  },
+  {
+    "id": 6,
+    "img": "/assets/imgs/works/full/6.jpg",
+    "category": "Web Design",
+    "title": "Carved Wood",
+    "year": "2023",
+    "link": "/project3"
+  }
+]

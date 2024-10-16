@@ -1,0 +1,13 @@
+/* Process
+-----------------------------------------------------------------*/
+.process .item {
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.process .item:last-of-type {
+  border: 0;
+}
+
+.process .item:hover .to-in {
+  margin-left: 0;
+}

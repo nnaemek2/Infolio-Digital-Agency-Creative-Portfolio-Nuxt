@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Digital Product Design",
+    "img": "/dark/assets/imgs/serv-icons/3.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/dark/page-services-details"
+  },
+  {
+    "title": "Web Developments",
+    "img": "/dark/assets/imgs/serv-icons/4.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/dark/page-services-details"
+  },
+  {
+    "title": "Branding Design",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/dark/page-services-details"
+  },
+  {
+    "title": "UI-UX Design",
+    "img": "/dark/assets/imgs/serv-icons/5.png",
+    "desc": "Live workshop where we define the main problems and challenges before building a strategic plan moving forward.",
+    "link": "/dark/page-services-details"
+  }
+]

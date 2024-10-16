@@ -1,0 +1,95 @@
+
+/* Videos
+-----------------------------------------------------------------*/
+
+.circle-button{
+    position: relative;
+    display: inline-block;
+
+    &.in-bord{
+
+      &:after{
+        content: '';
+        position: absolute;
+        top: 55px;
+        left: 55px;
+        right: 55px;
+        bottom: 55px;
+        border: 1px solid rgba(255,255,255,.5);
+        border-radius: 50%;
+      }
+
+      &:before{
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border: 1px solid rgba(255,255,255,.5);
+        border-radius: 50%;
+      }
+    }
+
+    .rotate-circle{
+
+        svg{
+            width: 210px;
+            fill: $body_color;
+        }
+    }
+
+    .arrow{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-20px) translateY(-20px);
+        display: inline-block;
+        width: 0;
+        height: 0;
+        
+        svg{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .icon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .in-circle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    &.no-animate{
+
+        .rotate-circle{
+            animation: none;
+        }
+    }
+}
+
+.rotate-circle{
+    animation-name: rotateCircle;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotateCircle {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+
+
+
+
+

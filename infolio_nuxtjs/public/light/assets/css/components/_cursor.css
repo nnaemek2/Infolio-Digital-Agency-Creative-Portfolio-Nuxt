@@ -1,0 +1,254 @@
+/* Cursor
+-----------------------------------------------------------------*/
+.hover-this .hover-anim {
+  pointer-events: none;
+  -webkit-transition: -webkit-transform 0.2s linear;
+  transition: -webkit-transform 0.2s linear;
+  -o-transition: transform 0.2s linear;
+  transition: transform 0.2s linear;
+  transition: transform 0.2s linear, -webkit-transform 0.2s linear;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  padding: 0.3rem;
+  background-color: #fff;
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  -webkit-transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
+  transition: opacity 0.4s ease, -webkit-transform 0.3s ease;
+  -o-transition: transform 0.3s ease, opacity 0.4s ease;
+  transition: transform 0.3s ease, opacity 0.4s ease;
+  transition: transform 0.3s ease, opacity 0.4s ease, -webkit-transform 0.3s ease;
+  z-index: 99999;
+}
+
+.cursor-active {
+  -webkit-transform: translate(-50%, -50%) scale(8);
+  -ms-transform: translate(-50%, -50%) scale(8);
+  transform: translate(-50%, -50%) scale(8);
+  opacity: .1;
+}
+
+.rolling-text {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 50px;
+  height: 50px;
+}
+
+.rolling-text.butn {
+  padding: 0 35px;
+}
+
+.social-text .rolling-text {
+  line-height: 30px;
+  height: 30px;
+}
+
+.rolling-text:hover .letter,
+.rolling-text.play .letter {
+  -webkit-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.rolling-text .letter {
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: -webkit-transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  -o-transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+  transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1), -webkit-transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+.letter:nth-child(1) {
+  -webkit-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.letter:nth-child(2) {
+  -webkit-transition-delay: 0.015s;
+  -o-transition-delay: 0.015s;
+  transition-delay: 0.015s;
+}
+
+.letter:nth-child(3) {
+  -webkit-transition-delay: 0.03s;
+  -o-transition-delay: 0.03s;
+  transition-delay: 0.03s;
+}
+
+.letter:nth-child(4) {
+  -webkit-transition-delay: 0.045s;
+  -o-transition-delay: 0.045s;
+  transition-delay: 0.045s;
+}
+
+.letter:nth-child(5) {
+  -webkit-transition-delay: 0.06s;
+  -o-transition-delay: 0.06s;
+  transition-delay: 0.06s;
+}
+
+.letter:nth-child(6) {
+  -webkit-transition-delay: 0.075s;
+  -o-transition-delay: 0.075s;
+  transition-delay: 0.075s;
+}
+
+.letter:nth-child(7) {
+  -webkit-transition-delay: 0.09s;
+  -o-transition-delay: 0.09s;
+  transition-delay: 0.09s;
+}
+
+.letter:nth-child(8) {
+  -webkit-transition-delay: 0.105s;
+  -o-transition-delay: 0.105s;
+  transition-delay: 0.105s;
+}
+
+.letter:nth-child(9) {
+  -webkit-transition-delay: 0.12s;
+  -o-transition-delay: 0.12s;
+  transition-delay: 0.12s;
+}
+
+.letter:nth-child(10) {
+  -webkit-transition-delay: 0.135s;
+  -o-transition-delay: 0.135s;
+  transition-delay: 0.135s;
+}
+
+.letter:nth-child(11) {
+  -webkit-transition-delay: 0.15s;
+  -o-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.letter:nth-child(12) {
+  -webkit-transition-delay: 0.165s;
+  -o-transition-delay: 0.165s;
+  transition-delay: 0.165s;
+}
+
+.letter:nth-child(13) {
+  -webkit-transition-delay: 0.18s;
+  -o-transition-delay: 0.18s;
+  transition-delay: 0.18s;
+}
+
+.letter:nth-child(14) {
+  -webkit-transition-delay: 0.195s;
+  -o-transition-delay: 0.195s;
+  transition-delay: 0.195s;
+}
+
+.letter:nth-child(15) {
+  -webkit-transition-delay: 0.21s;
+  -o-transition-delay: 0.21s;
+  transition-delay: 0.21s;
+}
+
+.letter:nth-child(16) {
+  -webkit-transition-delay: 0.225s;
+  -o-transition-delay: 0.225s;
+  transition-delay: 0.225s;
+}
+
+.letter:nth-child(17) {
+  -webkit-transition-delay: 0.24s;
+  -o-transition-delay: 0.24s;
+  transition-delay: 0.24s;
+}
+
+.letter:nth-child(18) {
+  -webkit-transition-delay: 0.255s;
+  -o-transition-delay: 0.255s;
+  transition-delay: 0.255s;
+}
+
+.letter:nth-child(19) {
+  -webkit-transition-delay: 0.27s;
+  -o-transition-delay: 0.27s;
+  transition-delay: 0.27s;
+}
+
+.letter:nth-child(20) {
+  -webkit-transition-delay: 0.285s;
+  -o-transition-delay: 0.285s;
+  transition-delay: 0.285s;
+}
+
+.letter:nth-child(21) {
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.progress-wrap {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+  mix-blend-mode: difference;
+}
+
+.progress-wrap.active-progress {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.progress-wrap::after {
+  position: absolute;
+  font-family: 'Font Awesome 5 Free';
+  content: '\f077';
+  text-align: center;
+  line-height: 44px;
+  font-size: 13px;
+  font-weight: 900;
+  color: #ccc;
+  left: 0;
+  top: 0;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+  display: block;
+  z-index: 1;
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+}
+
+.progress-wrap svg path {
+  fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+  stroke: #ccc;
+  stroke-width: 4;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 400ms linear;
+  -o-transition: all 400ms linear;
+  transition: all 400ms linear;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "img": "/light/assets/imgs/works/3/0.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project1"
+  },
+  {
+    "img": "/light/assets/imgs/works/3/1.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project2"
+  },
+  {
+    "img": "/light/assets/imgs/works/3/2.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project3"
+  },
+  {
+    "img": "/light/assets/imgs/works/3/3.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project4"
+  },
+  {
+    "img": "/light/assets/imgs/works/3/4.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project5"
+  },
+  {
+    "img": "/light/assets/imgs/works/3/4.jpg",
+    "title": "Branding",
+    "subTitle": "Artboard Studio",
+    "link": "/light/project5"
+  }
+]

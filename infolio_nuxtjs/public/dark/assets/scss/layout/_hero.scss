@@ -1,0 +1,199 @@
+
+/* Hero
+-----------------------------------------------------------------*/
+
+.skills-img{
+
+    .img{
+        position: relative;
+
+        .curv-title{
+            position: absolute;
+            top: 50%;
+            right: -1px;
+            width: max-content;
+            padding: 10px 25px;
+            border-radius: 15px 15px 0 0;
+            transform: rotate(-90deg) scaleX(-1) translateX(50%) translateY(-100%);
+            transform-origin: top right;
+            
+            h6 {
+                transform: scaleX(-1);
+            }
+
+            .shap-left-bottom{
+                position: absolute;
+                bottom: -1px;
+                left: -2.05rem;
+                transform: rotate(180deg);
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+
+            .shap-right-bottom{
+                position: absolute;
+                bottom: -1px;
+                right: -2.05rem;
+                transform: rotate(270deg);
+            
+                svg{
+                    width: 2.1rem;
+                    height: 2.1rem;
+                }
+            }
+        }
+    }
+}
+
+.skills-img-crev{
+
+    .img{
+        position: relative;
+
+        img{
+            transform: rotate(-10deg);
+            margin-bottom: -50px;
+            margin-left: 25px;
+        }
+
+        .rotate-butn-vid{
+            position: absolute;
+            bottom: 50px;
+            left: -100px;
+            transform: rotate(-90deg) translateY(-100%);
+            padding: 8px 20px;
+            border: 1px solid rgba(255,255,255,.2);
+            border-radius: 30px;
+        }
+    }
+
+    .circle-button{
+        background: rgba(26,26,26,.05);
+        backdrop-filter: blur(10px);
+        border-radius: 50%;
+        position: relative;
+        z-index: 3;
+    }
+}
+
+.skills-box {
+
+	h6 {
+		font-size: 13px;
+		font-weight: 300;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		margin-bottom: 10px;
+	}
+
+	.skill-progress {
+		height: 5px;
+		background-color: rgba(255,255,255,.05);
+		position: relative;
+
+		.progres {
+			position: absolute;
+			height: 100%;
+			width: 40%;
+			top: 0;
+			left: 0;
+			background: #fff;
+			transition: all 1.5s;
+
+			&:after {
+				content: attr(data-value);
+				position: absolute;
+				right: 10px;
+				top: -25px;
+				font-size: 12px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.my-skills{
+
+    .item{
+        padding: 30px 30px 0;
+        border: 1px solid rgba(255,255,255,.1);
+        border-radius: 10px;
+        position: relative;
+
+        .value{
+            font-size: 12px;
+            padding: 3px 10px;
+            border-radius: 30px;
+            border: 1px solid rgba(255,255,255,.2);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    }
+
+    .skill-progress {
+        height: 3px;
+        background-color: rgba(255,255,255,.1);
+        position: relative;
+
+        .progres {
+            position: absolute;
+            height: 100%;
+            width: 0;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            transition: all 1.5s;
+        }
+    }
+}
+
+.my-skills2{
+
+    .item{
+        text-align: center;
+
+        .box-bord{
+            padding: 40px 15px;
+            border: 1px solid rgba(255,255,255,.1);
+            border-radius: 100px;
+        }
+
+        .img{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            margin: 0 auto 30px;
+            border-radius: 50%;
+            background: rgba(255,255,255,.05);
+
+            img{
+                width: 55px;
+            }
+        }
+
+        .value{
+            font-size: 30px;
+        }
+
+        h6{
+            margin-top: 25px;
+        }
+    }
+}
+
+.marquee-skew {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0;
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    transform: rotate(-3deg);
+    width: calc(100% + 60px);
+    margin-left: -30px;
+    background: $main_bg;
+}
